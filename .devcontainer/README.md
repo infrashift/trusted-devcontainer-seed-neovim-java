@@ -7,7 +7,7 @@ Two things in one image, and the split is deliberate — see the header comment 
 
     template:  ghcr.io/infrashift/trusted-devcontainer-templates/java   (features, digests)
     editor:    the neovim-go template's terminal stack (tmux, neovim), plus
-               java-tools (jdtls + lombok, installed userland, with a jdtls launcher) and the lazyvim feature at 1.1.0 with extras=lang.java
+               java-tools (jdtls + lombok, installed userland, with a jdtls launcher) and the lazyvim feature at 1.2.2 with extras=lang.java
 
 A `devcontainer.json` cannot *reference* a template at build time -- a template
 is applied, and what it produced is what is committed here. Every feature is
